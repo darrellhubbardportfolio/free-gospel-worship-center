@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- google fonts font-family: 'roboto' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- google material symbols outlined -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- stylesheet -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/components/navbar.css" rel="stylesheet" />
+    <link href="css/components/header.css" rel="stylesheet" />
+    <link href="css/home-page.css" rel="stylesheet" />
+    <link href="css/events.css" rel="stylesheet" />
+    <link href="css/animations.css" rel="stylesheet" />
+    <link href="css/latest-sermon.css" rel="stylesheet" />
+    <link href="css/components/footer.css" rel="stylesheet" />
+</head>
+<body>
+
+    <nav>
+        <span>Godreich</span>
+        <ul id="social-navlinks">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </ul>
+        <div id="menu-options" class="container-fluid d-flex align-items-center justify-content-center">
+            <span>menu</span>
+            <span class="material-symbols-outlined">menu</span>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Helping Grow Your Faith</h1>
+        <h5>submit your presence to the creator of the earth</h5>
+        <ul class="container d-flex align-items-center justify-content-center">
+            <button type="button" class="container d-flex align-items-center justify-content-center">New Here!</button>
+            <button type="button" class="container d-flex align-items-center justify-content-center">
+                <span class="material-symbols-outlined">play_arrow</span>
+                <span>Livestream</span>
+            </button>
+        </ul>
+        <button type="button" class="container d-flex align-items-center justify-content-center">
+            <span class="container d-flex align-items-center justify-content-center material-symbols-outlined">expand_more</span>
+        </button>
+    </header>
+    
+    <main>
+
+        <div id="upcoming-event" class="container-fluid d-flex align-items-center justify-content-center p-0">
+            <section class="container-fluid d-flex align-items-center justify-content-center col-md-6 p-4">
+                <div class="container-fluid d-flex align-items-center justify-content-center flex-column">
+                    <div class="container-fluid d-flex align-items-center justify-content-start">
+                        <span class="container-fluid d-flex align-items-center justify-content-center material-symbols-outlined">event</span>
+                        <h5 class="m-0 p-0">upcoming event</h5>
+                    </div>
+                    <p class="m-0">"The Law Demands, But Grace Supplies" - Pastor Kamanda</p>
+                </div>
+            </section>
+            <section class="container-fluid d-flex align-items-center justify-content-center col-md-6 p-4">
+                <ul class="container-fluid d-flex align-items-center justify-content-center">
+                    <!-- week intervals-->
+                    <li class="container d-flex align-items-center justify-content-center flex-column p-0">
+                        <span class="container d-flex align-items-center justify-content-center time-remainder">0</span>
+                        <span class="container d-flex align-items-center justify-content-center time-label">wk</span>
+                    </li>
+                    <!-- day intervals-->
+                    <li class="container d-flex align-items-center justify-content-center flex-column p-0">
+                        <span class="container d-flex align-items-center justify-content-center time-remainder">0</span>
+                        <span class="container d-flex align-items-center justify-content-center time-label">day</span>
+                    </li>
+                    <!-- hour intervals-->
+                    <li class="container d-flex align-items-center justify-content-center flex-column p-0">
+                        <span class="container d-flex align-items-center justify-content-center time-remainder">0</span>
+                        <span class="container d-flex align-items-center justify-content-center time-label">hr</span>
+                    </li>
+                    <!-- min intervals-->
+                    <li class="container d-flex align-items-center justify-content-center flex-column p-0">
+                        <span class="container d-flex align-items-center justify-content-center time-remainder">0</span>
+                        <span class="container d-flex align-items-center justify-content-center time-label">min</span>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <div id="bible-verse-of-the-day" class="container-fluid d-flex align-items-center justify-content-center flex-column">
+            <p class="scripture">
+                "For God So Loved The World, He Gave His Only Begotten Son, that whosoever believeth in him should not perish, but have everlasting life."
+            </p>
+            <span class="works-cited">- John 3:16 KJV</span>
+        </div>
+
+        <div id="about">
+            <section class="container d-flex align-items-center justify-content-center">
+                <span></span>
+                <article class="container d-flex align-items-center justify-content-center p-4">
+                    <h1 class="m-0 p-0">Meet Pastor Kamanda</h1>
+                </article>
+            </section>
+            <section class="container d-flex align-items-center justify-content-start flex-column">
+                <span>Lorem ipsum dolor sit amet</span>
+                <h1>Platea dictumst vestibulum rhoncus est.</h1>
+                <p>
+                    Varius duis at consectetur lorem. Velit aliquet sagittis id consectetur purus ut faucibus. Vulputate enim nulla aliquet porttitor lacus luctus accumsan. Id leo in vitae turpis massa sed elementum tempus. Diam maecenas ultricies mi eget mauris.
+                </p>
+                <button type="button">Learn More</button>
+            </section>
+        </div>
+
+        <div id="church-services">
+            <h2>Free Gospel Church Services</h2>
+            <span>Lots of spiritual activities to grow in the faith.</span>
+            <ul id="church-services-list">
+                <li class="church-services-item">
+                    <div>
+                        <span>Bible Study</span>
+                        <span>Vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Egestas egestas fringilla phasellus faucibus.</span>
+                    </div>
+                    <span class="material-symbols-outlined"><i class="fa-solid fa-book-bible"></i></span>
+                </li>
+                <li class="church-services-item church-services-item-reverse">
+                    <div>
+                        <span>Prayer Time</span>
+                        <span>Vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Egestas egestas fringilla phasellus faucibus.</span>
+                    </div>
+                    <span class="material-symbols-outlined"><i class="fa-solid fa-person-praying"></i></span>
+                </li>
+                <li class="church-services-item">
+                    <div>
+                        <span>Praise & Singing</span>
+                        <span>Vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Egestas egestas fringilla phasellus faucibus.</span>
+                    </div>
+                    <span class="material-symbols-outlined"><i class="fa-solid fa-music"></i></span>
+                </li>
+                <li class="church-services-item church-services-item-reverse">
+                    <div>
+                        <span>Events</span>
+                        <span>Vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Egestas egestas fringilla phasellus faucibus.</span>
+                    </div>
+                    <span class="material-symbols-outlined"><i class="fa-regular fa-calendar-days"></i></span>
+                </li>
+                <li class="church-services-item">
+                    <div>
+                        <span>Food Pantry</span>
+                        <span>Vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Egestas egestas fringilla phasellus faucibus.</span>
+                    </div>
+                    <span class="material-symbols-outlined"><i class="fa-solid fa-bowl-food"></i></span>
+                </li>
+                <li class="church-services-item church-services-item-reverse">
+                    <div>
+                        <span>Weddings</span>
+                        <span>Vestibulum rhoncus est pellentesque elit ullamcorper dignissim. Egestas egestas fringilla phasellus faucibus.</span>
+                    </div>
+                    <span class="material-symbols-outlined"><i class="fa-solid fa-ring"></i></span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Latest Sermon Preached -->
+        <div id="latest-worship-service" class="container-fluid d-flex align-items-center justify-content-center flex-column">
+            <!-- >:nth-child(1) -->
+            <div class="container-fluid d-flex align-items-center justify-content-start">
+                <span>Latest Sermon</span>
+            </div>
+            <!-- >:nth-child(2) -->
+            <div class="container-fluid d-flex align-items-center justify-content-start">
+                <h3>What size shoe does god wear?</h3>
+                <span class="container d-flex align-items-center justify-content-center">
+                    <span>Read More</span>
+                    <span class="material-symbols-outlined">arrow_circle_right</span>
+                </span>
+            </div>
+            <!-- >:nth-child(3) 'music player' -->
+            <div>
+                <!-- >:nth-child(3)>:nth-child(1) -->
+                <div>
+                    <img src="./assets/church-service.jpg" />
+                </div>
+                <!-- >:nth-child(3)>:nth-child(2) -->
+                <div class="container-fluid d-flex align-items-center justify-content-center flex-column">
+                    <!-- >:nth-child(3)>:nth-child(2)>:nth-child(1) -->
+                    <div class="container-fluid d-flex align-items-center-justify-content-start">NOW PLAYING</div>
+                    <!-- >:nth-child(3)>:nth-child(2)>:nth-child(2) -->
+                    <div class="container-fluid d-flex align-items-center-justify-content-start">Ask What Does It Take To Wear God's Shoe?</div>
+                    <!-- >:nth-child(3)>:nth-child(2)>:nth-child(3) -->
+                    <div class="container-fluid d-flex align-items-center-justify-content-start">Radio Station</div>
+                    <!-- >:nth-child(3)>:nth-child(2)>:nth-child(4) -->
+                    <div>
+                        <span class="material-symbols-outlined">play_circle</span>
+                        <span>00:00</span>
+                        <span></span>
+                        <span>00:00</span>
+                        <span class="material-symbols-outlined">volume_up</span>
+                        <audio id="worship-service-audio-player" hidden></audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="church-contact">
+            <ul class="">
+                <!-- location -->
+                <article class="container-fluid d-flex align-items-start justify-content-start flex-column">
+                    <span class="container-fluid d-flex align-items-center justify-content-start">
+                        <span class="material-symbols-outlined">location_on</span>
+                        <span>location</span>
+                    </span>
+                    <span>999 Hodalo Ln, Sierra Leone</span>
+                </article>
+                <!-- service times -->
+                <article class="container-fluid d-flex align-items-start justify-content-start flex-column">
+                    <span class="container d-flex align-items-center justify-content-start">
+                        <span class="material-symbols-outlined">schedule</span>
+                        <span>service times</span>
+                    </span>
+                    <span>wednesdays 6:00 pm - 8:00 pm</span>
+                    <span>sundays 10:45 am - 12:15 pm</span>
+                    <span>sundays 6:00 pm - 8:00 pm</span>
+                </article>
+                <!-- contact -->
+                <article class="container-fluid d-flex align-items-start justify-content-start flex-column">
+                    <span class="container d-flex align-items-center justify-content-start">
+                        <span class="material-symbols-outlined">contact_support</span>
+                        <span>contact & support</span>
+                    </span>
+                    <span>email: pastorkamanda@fgwc.org</span>
+                    <span>phone: 770.456.9999</span>
+                </article>
+            </ul>
+        </div>
+
+        <div id="facebook">
+            <section class="container d-flex align-items-center justify-content-center">
+                <i class="fa-brands fa-facebook-f"></i>
+                <span>Facebook Posts</span>
+            </section>
+            <section id="facebook-posts-container" class="container d-flex align-items-center justify-content-center">
+                <ul id="facebook-posts">
+                    <li class="facebook-posts-item"></li>
+                    <li class="facebook-posts-item"></li>
+                    <li class="facebook-posts-item"></li>
+                    <li class="facebook-posts-item"></li>
+                    <li class="facebook-posts-item"></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <section>
+            <div id="about-us">
+                <span>About Us</span>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam quis enim lobortis scelerisque fermentum dui faucibus in.
+                </p>
+                <ul id="social-navlinks-in-footer">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </ul>
+            </div>
+            <div id="recent-blog">
+                <span>Recent Blog</span>
+                <ul id="recent-blog-posts" class="p-0 m-0 container-fluid">
+                    <!-- blog post #1 -->
+                    <li class="recent-blog-item">
+                        <div class="recent-blog-item-thumbnail"></div>
+                        <article class="recent-blog-post container-fluid d-flex align-items-center justify-content-start flex-column">
+                            <h5 class="m-0 p-0">Blog Post Title #1</h5>
+                            <ul class="p-0 m-0 container-fluid d-flex align-items-center justify-content-start">
+                                <span class="material-symbols-outlined">event</span>
+                                <span class="blog-post-datetime">October, 29, 2023</span>
+                            </ul>
+                        </article>
+                    </li>
+                    <!-- blog post #2 -->
+                    <li class="recent-blog-item">
+                        <div class="recent-blog-item-thumbnail"></div>
+                        <article class="recent-blog-post container-fluid d-flex align-items-center justify-content-start flex-column">
+                            <h5 class="m-0 p-0">Blog Post Title #2</h5>
+                            <ul class="p-0 m-0 container-fluid d-flex align-items-center justify-content-start">
+                                <span class="material-symbols-outlined">event</span>
+                                <span class="blog-post-datetime">October, 29, 2023</span>
+                            </ul>
+                        </article>
+                    </li>
+                    <!-- blog post #3 -->
+                    <li class="recent-blog-item">
+                        <div class="recent-blog-item-thumbnail"></div>
+                        <article class="recent-blog-post container-fluid d-flex align-items-center justify-content-start flex-column">
+                            <h5 class="m-0 p-0">Blog Post Title #3</h5>
+                            <ul class="p-0 m-0 container-fluid d-flex align-items-center justify-content-start">
+                                <span class="material-symbols-outlined">event</span>
+                                <span class="blog-post-datetime">October, 29, 2023</span>
+                            </ul>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+            <!-- quick links-->
+            <div id="quick-links">
+                <span>site links</span>
+                <a href="" class="footer-navlinks">Home</a>
+                <a href="" class="footer-navlinks">About</a>
+                <a href="" class="footer-navlinks">Gallery</a>
+                <a href="" class="footer-navlinks">Events</a>
+                <a href="" class="footer-navlinks">Sermons</a>
+            </div>
+            <div id="contact">
+                <span>Have A Question?</span>
+                <span>
+                    <span class="material-symbols-outlined">location_on</span>
+                    <span>location</span>
+                </span>
+                <span>
+                    <span class="material-symbols-outlined">phone</span>
+                    <span>phone</span>
+                </span>
+                <span>
+                    <span class="material-symbols-outlined">mail</span>
+                    <span>email</span>
+                </span>
+            </div>
+        </section>
+        <div>
+            <span>Copyright @ 2023 All rights are reserved | This template is remade by Darrell Hubbard</span>
+        </div>
+    </footer>
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- javascript -->
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
