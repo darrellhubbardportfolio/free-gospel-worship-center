@@ -1,0 +1,265 @@
+
+@media only screen and (min-width: 325px) and (max-width: 800px)
+{
+    #upcoming-event 
+    {   
+        width: 100%;
+        height: 600px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    #upcoming-event>:nth-child(1)
+    {
+        background-image: linear-gradient(60deg, rgb(255, 228, 181, 0.90), rgb(255, 228, 181, 0.90));
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        color: white;
+    }
+
+    #upcoming-event>:nth-child(1)>:nth-child(1)
+    {
+        width: 100%;
+        max-width: 80%;
+        gap: 20px;
+        position: relative;
+    }
+
+    #upcoming-event>:nth-child(1)>:nth-child(1)>:nth-child(1)
+    {
+        width: 100%;
+        gap: 0;
+        position: relative;
+        color: black;
+    }
+
+    #upcoming-event>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)
+    {
+        max-width: 45px;
+    }
+
+    #upcoming-event>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)
+    {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: normal;
+        width: 100%;
+        max-width: 100%;
+        text-align: left;
+    }
+
+    #upcoming-event>:nth-child(1)>:nth-child(1)>:nth-child(2)
+    {
+        text-align: left;
+        font-size: 28px;
+        text-overflow: ellipsis;
+        word-wrap: nowrap;
+        max-width: 100%;
+        max-height: 100px;
+        line-height: 1.5;
+    }
+
+    #upcoming-event>:nth-child(1)>:nth-child(2)
+    {
+        font-size: 45px;
+        text-overflow: ellipsis;
+        word-wrap: nowrap;
+        max-width: 100%;
+    }
+
+    /* this is the second part with the counter */
+    #upcoming-event>:nth-child(2)
+    {
+        color: white;
+        height: 100%;
+    }
+
+    #upcoming-event>:nth-child(2)> ul 
+    {
+        padding: 0;
+        gap: 20px;
+        height: 100px;
+        max-width: 70%;
+    }
+
+    #upcoming-event>:nth-child(2)> ul> li 
+    {
+        list-style: none;
+        color: white;
+    }
+
+    #upcoming-event>:nth-child(2)> ul> li>:nth-child(1)
+    {
+        font-size: 60px;
+        font-weight: 700;
+        text-shadow: 0 0 12px #343a40;
+    }
+
+    #upcoming-event>:nth-child(2)> ul> li>:nth-child(2)
+    {
+        font-size: 16px;
+    }
+}
+
+
+@media only screen and (min-width: 325px) and (max-width: 800px)
+{
+        
+    #church-services
+    {
+        width: 100%;
+        min-height: 125vh;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    #church-services>:nth-child(1)
+    {
+        max-width: 90%;
+        font-size: 30px;
+    }
+
+    #church-services>:nth-child(2)
+    {
+        max-width: 90%;
+    }
+
+    #church-services-list 
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 300px);
+        max-width: 100%;
+        margin-top: 20px;
+        min-height: 300px;
+    }
+
+    .church-services-item
+    {
+        display: grid;
+        grid-template-columns: 1fr 100px;
+        grid-template-rows: 1fr;
+        grid-column-gap: 20px;
+        width: 100%;
+        height: 100%;
+        direction: rtl;
+    }
+
+    .church-services-item-reverse 
+    {
+        direction: rtl;
+    }
+
+    .church-services-item>:nth-child(1)
+    {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+    }
+
+    .church-services-item>:nth-child(1)>:nth-child(1)
+    {
+        font-size: 28px;
+        font-weight: normal;
+        width: 100%;
+        text-align: left;
+        text-transform: capitalize;
+    }
+
+    .church-services-item>:nth-child(1)>:nth-child(2)
+    {
+        font-size: 16px;
+        font-weight: normal;
+        line-height: 1.5;
+        width: 100%;
+        text-align: center;
+    }
+
+    .church-services-item>:nth-child(2) 
+    {
+        min-width: 100px;
+        max-width: 100px;
+        min-height: 100px;
+        max-height: 100px;
+        font-size: 45px;
+    }
+
+}
+
+
+@media only screen and (min-width: 325px) and (max-width: 800px)
+{
+            
+    #church-contact 
+    {
+        min-height: 300px;
+        height: calc(200px * 3);
+        flex-direction: column;
+        padding: 20px;
+        gap: 0;
+        max-width: 100%;
+    }
+
+    #church-contact> ul
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, minmax(200px, 200px));
+        justify-content: center;
+        align-items: center;
+        grid-column-gap: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+        min-height: 300px;
+    }
+
+    #church-contact> ul> article 
+    {
+        gap: 20px;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #church-contact> ul> article>:nth-child(1) 
+    {
+        gap: 16px;
+        font-size: 14px;
+        font-weight: normal;
+        letter-spacing: 4px;
+        color: white;
+        min-width: 100%;
+        max-width: 100%;
+        padding: 0;
+        text-transform: uppercase;
+    }
+
+    #church-contact> ul> article>:nth-child(1)>:nth-child(1) 
+    {
+        width: 20px;
+    }
+
+    #church-contact> ul> article>:nth-child(1)>:nth-child(2) 
+    {
+        flex: 1;
+        text-align: left;
+        text-transform: uppercase;
+    }
+
+    #church-contact> ul> article>:nth-child(2), #church-contact> ul> article>:nth-child(3), #church-contact> ul> article>:nth-child(4) {
+        color: #ffffff80;
+        font-size: 14px;
+        line-height: 1.5;
+        text-transform: capitalize;
+    }
+}
+

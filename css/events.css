@@ -1,0 +1,215 @@
+#upcoming-event 
+{   
+    background-image: url("./../assets/background-4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+#upcoming-event>:nth-child(1)
+{
+    /*background-color: rgb(255, 228, 181, 0.45);*/
+    background-image: linear-gradient(60deg, rgb(255, 228, 181, 0.90), rgb(255, 228, 181, 0.90));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: white;
+}
+
+#upcoming-event>:nth-child(1)>:nth-child(1)
+{
+    width: 100%;
+    max-width: 80%;
+    gap: 20px;
+    position: relative;
+}
+
+#upcoming-event>:nth-child(1)>:nth-child(1)>:nth-child(1)
+{
+    width: 100%;
+    gap: 0;
+    position: relative;
+    color: black;
+}
+
+#upcoming-event>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)
+{
+    max-width: 45px;
+}
+
+#upcoming-event>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)
+{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+}
+
+#upcoming-event>:nth-child(1)>:nth-child(1)>:nth-child(2)
+{
+    text-align: left;
+    font-size: 28px;
+    text-overflow: ellipsis;
+    word-wrap: nowrap;
+    max-width: 100%;
+    max-height: 100px;
+    line-height: 1.5;
+}
+
+#upcoming-event>:nth-child(1)>:nth-child(2)
+{
+    font-size: 45px;
+    text-overflow: ellipsis;
+    word-wrap: nowrap;
+    max-width: 100%;
+}
+
+/* this is the second part with the counter */
+#upcoming-event>:nth-child(2)
+{
+/*     background-color: #18191a;
+    background-blend-mode: overlay; */
+/*     background-image: url("./../assets/background-4.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    color: white;
+    height: 100%;
+}
+
+#upcoming-event>:nth-child(2)> ul 
+{
+    padding: 0;
+    gap: 20px;
+    height: 100px;
+    max-width: 70%;
+}
+
+#upcoming-event>:nth-child(2)> ul> li 
+{
+    list-style: none;
+    color: white;
+}
+
+#upcoming-event>:nth-child(2)> ul> li>:nth-child(1)
+{
+    font-size: 60px;
+    font-weight: 700;
+    text-shadow: 0 0 12px #343a40;
+}
+
+#upcoming-event>:nth-child(2)> ul> li>:nth-child(2)
+{
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 325px) and (max-width: 800px)
+{
+    #upcoming-event 
+    {   
+        width: 100%;
+        height: 525px;
+        flex-direction: column;
+    }
+
+    #upcoming-event>:nth-child(1)
+    {
+        background-image: linear-gradient(60deg, rgb(255, 228, 181, 0.90), rgb(255, 228, 181, 0.90));
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        flex: 1.5;
+        color: white;
+    }
+
+    #upcoming-event>:nth-child(1)>:nth-child(1)
+    {
+        width: 100%;
+        max-width: 95%;
+        gap: 20px;
+        position: relative;
+    }
+
+    #upcoming-event>:nth-child(1)>:nth-child(1)>:nth-child(1)
+    {
+        width: 100%;
+        gap: 0;
+        position: relative;
+        color: black;
+    }
+
+    #upcoming-event>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(1)
+    {
+        max-width: 30px;
+    }
+
+    #upcoming-event>:nth-child(1)>:nth-child(1)>:nth-child(1)>:nth-child(2)
+    {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: normal;
+        width: 100%;
+        max-width: 100%;
+        text-align: left;
+    }
+
+    #upcoming-event>:nth-child(1)>:nth-child(1)>:nth-child(2)
+    {
+        text-align: left;
+        font-size: 28px;
+        text-overflow: ellipsis;
+        word-wrap: nowrap;
+        max-width: 100%;
+        max-height: 100px;
+        line-height: 1.5;
+    }
+
+    #upcoming-event>:nth-child(1)>:nth-child(2)
+    {
+        font-size: 45px;
+        text-overflow: ellipsis;
+        word-wrap: nowrap;
+        max-width: 100%;
+    }
+
+    /* this is the second part with the counter */
+    #upcoming-event>:nth-child(2)
+    {
+        color: white;
+        width: 100%;
+        flex: 1;
+    }
+
+    #upcoming-event>:nth-child(2)> ul 
+    {
+        padding: 0;
+        gap: 20px;
+        height: 100px;
+        max-width: 85%;
+    }
+
+    #upcoming-event>:nth-child(2)> ul> li 
+    {
+        list-style: none;
+        color: white;
+    }
+
+    #upcoming-event>:nth-child(2)> ul> li>:nth-child(1)
+    {
+        font-size: 60px;
+        font-weight: normal;
+        text-shadow: 0 0 12px #343a40;
+    }
+
+    #upcoming-event>:nth-child(2)> ul> li>:nth-child(2)
+    {
+        font-size: 28px;
+        text-shadow: 0 0 12px #343a40;
+    }
+}

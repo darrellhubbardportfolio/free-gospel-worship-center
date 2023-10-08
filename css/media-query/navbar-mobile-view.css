@@ -1,0 +1,50 @@
+
+@media only screen and (min-width: 325px) and (max-width: 800px)
+{
+    nav
+    {
+        width: 100vw;
+        height: 125px;
+        padding: 0;
+        background-color: black;
+        color: white;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    nav>:nth-child(1)
+    {
+        font-size: 28px;
+        font-weight: lighter;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: uppercase;
+        width: 100%;
+    }
+    
+    #social-navlinks 
+    {
+        display: none;
+        width: 0;
+    }
+    
+    #menu-options
+    {
+        gap: 16px;
+        font-size: 18px;
+        width: 100%;
+        margin: 0;
+        color: gray;
+    }
+    
+    #menu-options>:nth-child(1) 
+    {
+        text-transform: uppercase;
+    }
+    
+    #menu-options> .material-symbols-outlined 
+    {
+        cursor: pointer;
+        font-size: 28px;
+    }
+}
